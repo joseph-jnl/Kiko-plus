@@ -6,6 +6,11 @@ layout: default
   <div class="header-title">
     <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}</a>
   </div>
+
+  <div class="header-small">
+    Data Science, Machine Learning, & Learning by Gradient Stumble
+  </div>
+
   <nav class="header-nav">
     {% for nav in site.nav %}
     {% if nav.url contains 'http://' or nav.url contains 'https://' %}
@@ -16,6 +21,8 @@ layout: default
     {% endfor %}
   </nav>
 </header>
+
+<hr />
 
 <div class="list">
 {% if site.posts.size == 0 %}

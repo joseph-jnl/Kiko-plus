@@ -1,11 +1,29 @@
 ---
 layout: default
 ---
-<header>
-  <div class="header-small">
-    <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+
+<header class="header">
+  <div class="header-title">
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ page.title }}</a>
   </div>
+
+  <div class="header-small">
+    Data Science, Machine Learning, & Learning by Gradient Stumble
+  </div>
+
+  <nav class="header-nav">
+    {% for nav in site.nav %}
+    {% if nav.url contains 'http://' or nav.url contains 'https://' %}
+    <a href="{{ nav.url }}">{{ nav.name }}</a>
+    {% else %}
+    <a href="{{ nav.url | prepend: site.baseurl }}">{{ nav.name }}</a>
+    {% endif %}
+    {% endfor %}
+  </nav>
 </header>
+
+<hr />
+
 <div class="post">
   <div class="post-title">{{ page.title }}</div>
   <span class="post-date">
