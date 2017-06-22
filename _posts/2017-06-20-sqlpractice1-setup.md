@@ -18,7 +18,7 @@ Finished with SQLZoo and Stanford Lagunita? Still feel a SQL shaped hole in your
 
 Let's prevent overfitting on the same old SQL questions and create our own convenient practice SQL environment. We'll be using docker, jupyter and the Lahman's Baseball Database to setup this:
 
-![SQLAlchemy](https://github.com/joseph-jnl/joseph-jnl.github.io/blob/master/images/sql/jupyterSQL.png "SQLAlchemy"){: .center-image}
+![SQLAlchemy](https://raw.githubusercontent.com/joseph-jnl/joseph-jnl.github.io/master/images/sql/jupyterSQL.png "SQLAlchemy"){: .center-image}
 
 ## Setup
 
