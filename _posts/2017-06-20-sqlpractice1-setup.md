@@ -5,7 +5,7 @@ description: "Setting up a convenient practice SQL environment using docker, jup
 date: 2017-06-20
 tags: [sql-practice]
 comments: true
-share: true
+share: false
 ---
 
 Love it or hate it, SQL is an important tool for data scientists and one best learned through practice. There are several great (and free!) resources online that you should check out first: 
@@ -18,7 +18,7 @@ Finished with SQLZoo and Stanford Lagunita? Still feel a SQL shaped hole in your
 
 Let's prevent overfitting on the same old SQL questions and create our own convenient practice SQL environment. We'll be using docker, jupyter and the Lahman's Baseball Database to setup this:
 
-![SQLAlchemy](http://placehold.it/200x200 "SQLAlchemy"){: .center-image}
+![SQLAlchemy](https://github.com/joseph-jnl/joseph-jnl.github.io/blob/master/images/sql/jupyterSQL.png "SQLAlchemy"){: .center-image}
 
 ## Setup
 
